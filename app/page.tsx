@@ -7,6 +7,7 @@ import { imagenes } from "@/lib/media";
 import { CatalogoCarousel } from "@/components/CatalogoCarousel";
 
 export const revalidate = 60;
+export const dynamic = 'force-dynamic';
 
 async function getProductos(): Promise<Producto[]> {
   const supabase = createServerSupabaseClient();
