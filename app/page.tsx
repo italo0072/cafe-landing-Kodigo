@@ -5,9 +5,9 @@ import type { Origen, Producto } from "@/lib/types";
 import { menuBebidas, procesoSteps, testimonios } from "@/lib/content";
 import { imagenes } from "@/lib/media";
 import { CatalogoCarousel } from "@/components/CatalogoCarousel";
+export const dynamic = 'force-dynamic';
 
 export const revalidate = 60;
-export const dynamic = 'force-dynamic';
 
 async function getProductos(): Promise<Producto[]> {
   const supabase = createServerSupabaseClient();
