@@ -25,7 +25,6 @@ La Calesa es una landing page para mostrar la identidad de un negocio local: his
 - Datos de catálogo y orígenes gestionados en Supabase.
 - Diseño responsivo para móvil y escritorio.
 
-(Evidencia de Funcionalidad.pdf
 )
 ## Estructura del proyecto
 
