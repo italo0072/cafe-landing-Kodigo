@@ -65,7 +65,7 @@ supabase/
 1. Clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/italo0072/cafe-landing-Kodigo>
 cd cafe-landing
 ```
 
