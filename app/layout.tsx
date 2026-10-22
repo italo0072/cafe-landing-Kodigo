@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "La Calesa — Café Gourmet, Alegría, Usulután",
@@ -32,6 +33,7 @@ export default function RootLayout({
         <SiteHeader />
         {children}
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );
